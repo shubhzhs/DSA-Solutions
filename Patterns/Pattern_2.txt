@@ -1,0 +1,9 @@
+#Geek is very fond of patterns. Once, his teacher gave him a pattern to solve. He gave Geek an integer n and asked him to build a pattern.
+
+class Solution:
+    def printTriangle(self, N):
+        for i in range(N):
+            for j in range(i+1):
+                print('* ', end="")
+                
+            print()
